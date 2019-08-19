@@ -1,0 +1,10 @@
+#install ludwig and dependencies
+#ludwig
+-e git+https://github.com/uber/ludwig.git#egg=ludwig
+tensorflow-gpu==1.12.0
+spacy
+
+#add fastai components
+#RUN pip install torch==0.4 torchvision==0.1.9 pandas_summary==0.0.5 torchtext==0.2.3
+#RUN pip install fastai==0.7
+#RUN apt install p7zip-full
